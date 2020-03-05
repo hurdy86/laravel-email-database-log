@@ -1,5 +1,5 @@
 {
-    "name": "shvetsgroup/laravel-email-database-log",
+    "name": "hurdy86/laravel-email-database-log",
     "description": "A simple database logger for all outgoing emails sent by Laravel website.",
     "keywords": ["laravel", "markdown"],
     "license": "MIT",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-0": {
-            "ShvetsGroup\\LaravelEmailDatabaseLog\\": "src/"
+            "hurdy86\\LaravelEmailDatabaseLog\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ShvetsGroup\\LaravelEmailDatabaseLog\\LaravelEmailDatabaseLogServiceProvider"
+                "hurdy86\\LaravelEmailDatabaseLog\\LaravelEmailDatabaseLogServiceProvider"
             ]
         }
     }
